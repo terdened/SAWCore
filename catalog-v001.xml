@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1459318455769" name="http://www.co-ode.org/ontologies/pizza/pizza.owl" uri="pizza.owl.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1459318455769" name="duplicate:http://www.semanticweb.org/terde/ontologies/2016/0/untitled-ontology-3" uri="RaceSAW(with%20instances).owl"/>
+        <uri id="Automatically generated entry, Timestamp=1459318455769" name="duplicate:http://www.semanticweb.org/terde/ontologies/2016/0/untitled-ontology-3" uri="RaceSAW.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1459318455769" name="duplicate:http://www.semanticweb.org/terde/ontologies/2016/0/untitled-ontology-3" uri="SAWCore.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1459318455769" name="duplicate:http://www.semanticweb.org/terde/ontologies/2016/0/untitled-ontology-3" uri="Situation%20awareness.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1459318455769" name="duplicate:http://www.semanticweb.org/terde/ontologies/2016/0/untitled-ontology-3" uri="XOSAW.owl"/>
+    </group>
+</catalog>

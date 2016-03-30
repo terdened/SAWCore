@@ -1,0 +1,590 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/terde/ontologies/2016/0/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/terde/ontologies/2016/0/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.semanticweb.org/terde/ontologies/2016/0/untitled-ontology-3#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-3" IRI="http://www.semanticweb.org/terde/ontologies/2016/0/untitled-ontology-3#"/>
+    <Declaration>
+        <ObjectProperty IRI="#hasEndEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Engine_power"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Width"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSignScore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Car"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#startEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PositionY"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPositionY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Free"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPosition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPropertyValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Circular_unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Situation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SAW_Core"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Initial"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGameState"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Xs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rectangular_unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PositionX"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#hasSituationObject"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Won_x"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unit"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#hasRelation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Property_value"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#hasPropertyValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Situation_object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Size"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAttribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Race_Ontology"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#affects"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mixed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStartEvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Won_o"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRelation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#hasVelocity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Speed_y"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sign_relation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Base_Situation_Ontology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sign_score"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wheel_turn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSituationObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Height"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sign_relation_score"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event_noice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Base_situation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Os"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Winable"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSignRelationScore"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#affects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physcal_object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#World"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#endEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Control"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Filled"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Speed_x"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPositionX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sign"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#hasPosition"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#hasVolume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Angular_speed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tile_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBaseSituation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radius"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blocked"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRowState"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Won"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attribute"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Attribute"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPropertyValue"/>
+            <Class IRI="#Property_value"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Car"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#Engine_power"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Car"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#Wheel_turn"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Circular_unit"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#Radius"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Physcal_object"/>
+        <Class IRI="#Unit"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Physcal_object"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#Angular_speed"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Physcal_object"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#Mass"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Physcal_object"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#PositionX"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Physcal_object"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#PositionY"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Physcal_object"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#Speed_x"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Physcal_object"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#Speed_y"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Property_value"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEndEvent"/>
+            <Class IRI="#Event_noice"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Property_value"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasStartEvent"/>
+            <Class IRI="#Event_noice"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Rectangular_unit"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#Height"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Rectangular_unit"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#Width"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Relation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPropertyValue"/>
+            <Class IRI="#Property_value"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Sign_relation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBaseSituation"/>
+            <Class IRI="#Base_situation"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Sign_relation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSign"/>
+            <Class IRI="#Sign"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Sign_relation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSignRelationScore"/>
+            <Class IRI="#Sign_relation_score"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Sign_score"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSignScore"/>
+            <Class IRI="#Sign_score"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Situation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRelation"/>
+            <Class IRI="#Relation"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Situation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSituationObject"/>
+            <Class IRI="#Situation_object"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Situation_object"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#Attribute"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Tile"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#Tile_type"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#World"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSituationObject"/>
+            <Class IRI="#Tile"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#World"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSituationObject"/>
+            <Class IRI="#Unit"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Angular_speed"/>
+        <Class IRI="#Speed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attribute"/>
+        <Class IRI="#SAW_Core"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Base_Situation_Ontology"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Base_situation"/>
+        <Class IRI="#Base_Situation_Ontology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Car"/>
+        <Class IRI="#Rectangular_unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Circular_unit"/>
+        <Class IRI="#Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Control"/>
+        <Class IRI="#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Engine_power"/>
+        <Class IRI="#Control"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Event_noice"/>
+        <Class IRI="#SAW_Core"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Height"/>
+        <Class IRI="#Size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mass"/>
+        <Class IRI="#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physcal_object"/>
+        <Class IRI="#Situation_object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Position"/>
+        <Class IRI="#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PositionX"/>
+        <Class IRI="#Position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PositionY"/>
+        <Class IRI="#Position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Property_value"/>
+        <Class IRI="#SAW_Core"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radius"/>
+        <Class IRI="#Size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rectangular_unit"/>
+        <Class IRI="#Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Relation"/>
+        <Class IRI="#SAW_Core"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sign"/>
+        <Class IRI="#Base_Situation_Ontology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sign_relation"/>
+        <Class IRI="#Base_Situation_Ontology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sign_relation_score"/>
+        <Class IRI="#Base_Situation_Ontology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sign_score"/>
+        <Class IRI="#Base_Situation_Ontology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Situation"/>
+        <Class IRI="#Situation_object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Situation_object"/>
+        <Class IRI="#SAW_Core"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Size"/>
+        <Class IRI="#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Speed"/>
+        <Class IRI="#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Speed_x"/>
+        <Class IRI="#Speed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Speed_y"/>
+        <Class IRI="#Speed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tile"/>
+        <Class IRI="#Race_Ontology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tile"/>
+        <Class IRI="#Situation_object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tile_type"/>
+        <Class IRI="#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unit"/>
+        <Class IRI="#Race_Ontology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wheel_turn"/>
+        <Class IRI="#Control"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Width"/>
+        <Class IRI="#Size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#World"/>
+        <Class IRI="#Race_Ontology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#World"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCell"/>
+        <ObjectProperty IRI="#hasGameState"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasEndEvent"/>
+        <ObjectProperty IRI="#hasStartEvent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPosition"/>
+        <ObjectProperty IRI="#hasAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPositionX"/>
+        <ObjectProperty IRI="#hasPosition"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPositionY"/>
+        <ObjectProperty IRI="#hasPosition"/>
+    </SubObjectPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+
